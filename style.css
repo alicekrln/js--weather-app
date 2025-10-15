@@ -18,11 +18,11 @@
     #0f3460 60%,
     #0a1a2e 85%,
     #000000 100%
-  );
-  --sun: #ffbf00;
-  --moon: #f3f3ff;
-}
-
+    );
+    --sun: #ffbf00;
+    --moon: #f3f3ff;
+  }
+  
 * {
   margin: 0;
   padding: 0;
@@ -39,21 +39,28 @@ body {
   align-items: center;
   justify-content: center;
   background: var(--bg-sun);
-
+  
   font-size: 140%;
 
   h1 {
     font-size: 3.5rem;
   }
-
+  
   h3 {
     margin-top: 1rem;
   }
-
+  
   &.moon {
     background: var(--bg-moon);
     color: white;
   }
+}
+
+select {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
 }
 
 .sun {
